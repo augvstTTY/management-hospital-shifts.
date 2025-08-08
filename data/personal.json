@@ -1,0 +1,56 @@
+[
+  {
+    "Código": "EMP-001",
+    "Nombre": "María López",
+    "Antigüedad": 6,
+    "Especialidad": "Pediatría",
+    "Turnos_nocturnos_mes": 0,
+    "Festivos_mes": 0,
+    "Hospital": "Hospital Bloom"
+  },
+  {
+    "Código": "EMP-002",
+    "Nombre": "Carlos Martínez",
+    "Antigüedad": 3,
+    "Especialidad": "Cirugía",
+    "Turnos_nocturnos_mes": 2,
+    "Festivos_mes": 1,
+    "Hospital": "Hospital Rosales"
+  },
+  {
+    "Código": "EMP-003",
+    "Nombre": "Ana Rivera",
+    "Antigüedad": 1,
+    "Especialidad": "Enfermería",
+    "Turnos_nocturnos_mes": 4,
+    "Festivos_mes": 0,
+    "Hospital": "Hospital Zacamil"
+  },
+  {
+    "Código": "EMP-004",
+    "Nombre": "Jorge Ramírez",
+    "Antigüedad": 4,
+    "Especialidad": "Emergencias",
+    "Turnos_nocturnos_mes": 3,
+    "Festivos_mes": 2,
+    "Hospital": "Hospital Nacional de Niños"
+  },
+  {
+    "Código": "EMP-005",
+    "Nombre": "Luisa Vásquez",
+    "Antigüedad": 2,
+    "Especialidad": "Pediatría",
+    "Turnos_nocturnos_mes": 1,
+    "Festivos_mes": 1,
+    "Hospital": "Hospital Bloom"
+  },
+  {
+    "Código": "EMP-006",
+    "Nombre": "Roberto Sánchez",
+    "Antigüedad": 3,
+    "Especialidad": "Cirugía",
+    "Turnos_nocturnos_mes": 0,
+    "Festivos_mes": 0,
+    "Hospital": "Hospital Rosales"
+  }
+]
