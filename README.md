@@ -53,11 +53,11 @@ python-dotenv==1.0.0
 
 Hospital/
 ├── data/
-│   ├── personal.json       # Datos del personal médico
-│   └── festivos.json       # Días festivos
-├── main.py                 # Aplicación principal
-├── README.md               # Este archivo
-└── requirements.txt        # Dependencias
+│ ├── personal.json # Personal physician data
+│ └── holidays.json # Holidays
+├── main.py # Main application
+├── README.md # This file
+└── requirements.txt # Dependencies
 
 ```
 
