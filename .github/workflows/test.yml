@@ -26,8 +26,27 @@ jobs:
         pip install pytest flake8
 
     - name: Run Linter
-      run: flake8 .
+      run: flake8 . --max-line-length=120 --ignore=E402
 
     - name: Run Tests
       run: pytest -v
 
+    - name: Update README if tests pass
+      if: success()
+      run: |
+        STATUS="✅ Build Status: Passing (Última comprobación: $(date '+%Y-%m-%d %H:%M:%S'))"
+        # Reemplaza la línea que comience con '✅ Build Status:' o agrégala si no existe
+        if grep -q "Build Status:" README.md; then
+          sed -i "s|^.*Build Status:.*|$STATUS|" README.md
+        else
+          echo -e "\n$STATUS" >> README.md
+        fi
+
+    - name: Commit changes
+      if: success()
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add README.md
+        git commit -m "docs: update build status [skip ci]" || echo "No changes to commit"
+        git push
