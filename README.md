@@ -1,69 +1,64 @@
 # 🏥 Hospital Appointment Management System
 
-Web application for automatic appointment assignment in hospitals in El Salvador, developed with Streamlit.
+**Educational Version** — Web-based system for **automatic medical appointment management** in hospitals in El Salvador, developed in **Python** with [Streamlit](https://streamlit.io/).
 
-## Main Features
+> ⚠️ **Important Notice:** 
+> This project is for **educational purposes**. 
+> - Data extraction and management methods are **simulated** and may differ from a real-life environment.
+> - All names, specialties, and medical data used are **fictitious** and do not correspond to real people.
 
-- 📅 Automatic appointment generation (morning, afternoon, and evening)
-- 🏥 Support for multiple hospitals and specialties
-- 👥 Complete medical staff management
-- 🎉 Holiday registration
-- 📊 Dashboard with statistics
-- 📁 Export to Excel and CSV
+## ✨ Main Features
 
-## System Requirements
+- 📅 **Automatic appointment generation** (morning, afternoon, and evening).
+- 🏥 **Support for multiple hospitals and specialties**.
+- 👥 **Complete medical staff management**.
+- 🎉 **Holiday registration**.
+- 📊 **Interactive statistics dashboard**.
+- 📁 **Data export to Excel and CSV**.
 
-- Python 3.7+
-- Pipenv or virtualenv (recommended)
+---
 
-## Installation
+## 🖥 System Requirements
 
-1. Clone the repository:
+- **Python** 3.7 or higher
+- **pip** (Python package manager)
+- **Virtual environment** (`venv` or `pipenv`) is recommended
 
+---
+
+## 🚀 Installation
+
+1. **Clone the repository**
 ```bash
 
 git clone https://github.com/augvstTTY/management-hospital-shifts.git
-
 cd management-hospital-shifts
 
 ```
-2. Install dependencies:
-
+2. **Install dependencies**
 ```bash
-
 pip install -r requirements.txt
 
 ```
-
-## requirements.txt file
-
-```bash:
-
-streamlit==1.32.2
-pandas==2.1.2
-numpy==1.26.0
-openpyxl==3.1.2
-python-dotenv==1.0.0
-
+3.  **System execution**
+```bash
+streamlit run main.py
 ```
 
-## Project structure
+## 🤝 Contributions
+
+Contributions are welcome.
+If you want to improve the project:
+
+1. Fork the repository.
+
+2. Create a branch for your feature:
 
 ```bash
-
-Hospital/
-├── data/
-│ ├── personal.json # Personal physician data
-│ └── holidays.json # Holidays
-├── main.py # Main application
-├── README.md # This file
-└── requirements.txt # Dependencies
-
+git checkout -b my-new-feature
 ```
+3. Submit a pull request describing the changes.
 
-## Contributions
-
-Contributions are welcome. Please open an issue or submit a pull request.
-
+##  Last CI run
 
 Last CI run: Fri Aug 15 00:11:23 UTC 2025

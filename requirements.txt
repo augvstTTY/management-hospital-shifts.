@@ -1,5 +1,22 @@
-streamlit==1.28.0
-pandas==2.1.3  
-numpy==1.26.0
-openpyxl==3.1.2
-python-dotenv==1.0.0
+# ============================
+# Hospital Appointment Management System
+# Requirements File
+# ============================
+# All dependencies pinned to specific versions for reproducibility.
+# This setup is intended for educational purposes. In a production
+# environment, versions may be updated more frequently and tested.
+
+# --- Core framework for the web interface ---
+streamlit~=1.28.0   # Web app development and UI rendering
+
+# --- Data handling & analysis ---
+numpy~=1.26.0       # Numerical computing
+pandas~=2.1.3       # Data manipulation and analysis
+
+# --- File export/import ---
+openpyxl~=3.1.2     # Read/write Excel files (.xlsx)
+
+# --- Environment variables ---
+python-dotenv~=1.0.0  # Load configuration from .env files
+
+# End of file
