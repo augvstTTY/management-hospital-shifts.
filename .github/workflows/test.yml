@@ -26,7 +26,7 @@ jobs:
         pip install pytest flake8
 
     - name: Run Linter
-      run: flake8 . --max-line-length=120 --ignore=E402
+      run: flake8 . --max-line-length=120 --ignore=E402,W503
 
     - name: Run Tests
       run: pytest -v || echo "No tests found, continuing..."
